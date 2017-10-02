@@ -70,7 +70,7 @@ int parseCommand(char* command, char* delimiter, char** values) {
 	char * ptr;
 	char* temparg2 = NULL;
 	// initializing the values array of strings.
-	while ((ptr = strtok(NULL, "||")) != NULL) {
+	while ((ptr = strtok(NULL, delimiter)) != NULL) {
 		temparg2 = ptr;
 		temparg2 = removeWhiteSpaces(temparg2);// remove white spaces from tempArg2.
 		if (temparg2 != NULL) {
