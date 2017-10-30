@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\JetBrains\CLion 2016.3.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Assig4.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Assig4.dir/objects.a @CMakeFiles\Assig4.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\Assig4.dir/objects.a -Wl,--no-whole-archive  -o Assig4.exe -Wl,--out-implib,libAssig4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Assig4.dir\linklibs.rsp
