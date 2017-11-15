@@ -1,3 +1,0 @@
-G:/NIU_Masters/Semester 3/Operating Systems/Assignments/A4/cmake-build-debug/CMakeFiles/Assig4.dir
-G:/NIU_Masters/Semester 3/Operating Systems/Assignments/A4/cmake-build-debug/CMakeFiles/edit_cache.dir
-G:/NIU_Masters/Semester 3/Operating Systems/Assignments/A4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

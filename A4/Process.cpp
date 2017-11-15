@@ -21,6 +21,7 @@ void Process::printDetails() {
 	int waiting_time = Timer - this->arrivalTime - this->CPUTotal - this->OTotal - this->ITotal;
 
 	cout << "\nName: " << this->processName;
+	cout << "\nPriority: "<< this->priority;
 	cout << "\nStart time: " << this->arrivalTime << " End time: " << Timer;
 	cout << "\nTotal CPU time = " << this->CPUTotal << " in " << this->CPUCount << " CPU bursts.";
 	cout << "\nTotal Input time = " << this->ITotal << " in " << this->ICount << " Input bursts.";

@@ -32,6 +32,7 @@ int myComparator::operator()(const Process *p1, const Process *p2) {
     }
 }
 
+// Global queues declaration.
 
 queue<Process *> entryQueue;
 priority_queue<Process *, vector<Process *>, myComparator> readyQueue;
