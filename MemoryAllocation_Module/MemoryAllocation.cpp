@@ -11,7 +11,7 @@ Execution               : make
 ./Assign6
  ****************************************/
 
-#include "Assign6.h"
+#include "MemoryAllocation.h"
 // included header files.
 using namespace std;
 

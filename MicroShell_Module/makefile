@@ -4,16 +4,16 @@
 # LOGONID    :Z1797942
 # DUEDATE    :9/26/2017
 
-CCFLAGS = -pthread -g -Wall 
-CC = gcc
+CCFLAGS = -g -Wall 
+
 #Rule to link object code files.
-Assign5 : Assign5.o
-	$(CC) $(CCFLAGS) -o Assign5 Assign5.o 
+z1797942_A3 : MicroShell.o
+	gcc $(CCFLAGS) -o z1797942_A3 MicroShell.o 
 
 #Rule to compile source code files to create object code files.
-Assign5.o : Assign5.c Assign5.h
-	$(CC) $(CCFLAGS) -c Assign5.c
+MicroShell.o : MicroShell.c MicroShell.h
+	gcc $(CCFLAGS) -c MicroShell.c
 
 #Pseudo target to remove object code and executables.
 clean :
-	-rm *.o Assign5
+	-rm *.o z1797942_A3

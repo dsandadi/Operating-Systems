@@ -11,7 +11,7 @@ facilitates those processes to communicate.
 Execution               : make
 ./Assign2
  ****************************************/
-#include "Assign2.h"
+#include "ProcessCommunication.h"
 /**************************************************
 Function : processData
 Purpose : converts the input data to output data by doing

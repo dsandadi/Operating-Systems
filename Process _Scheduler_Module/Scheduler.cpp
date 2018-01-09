@@ -10,7 +10,7 @@ Execution               : make
 ./Assign4
  ****************************************/
 
-#include "Assign4.h"
+#include "Scheduler.h"
 #include <string>
 #include <cstdlib>
 #include "Process.h"
